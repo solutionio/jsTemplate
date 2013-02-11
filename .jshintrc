@@ -14,7 +14,8 @@
     "buster": true,
     "assert": true,
     "refute": true,
-    "console": true
+    "console": true,
+    "foo": true
   }
 }
 
