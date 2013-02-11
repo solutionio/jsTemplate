@@ -1,0 +1,21 @@
+{
+  "name": "jsTemplate",
+  "version": "0.0.1",
+  "description": "Template for TDD Javascript",
+  "main": "main.js",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-cli": "0.1.6",
+    "buster": "0.6.12",
+    "grunt-buster": "0.1.2",
+    "grunt-contrib-jshint": "~0.1.0",
+    "bower": "~0.7.0"
+  },
+  "scripts": {
+    "test": "./node_modules/bower/bin/bower install; ./node_modules/grunt-cli/bin/grunt"
+  },
+  "repository": "",
+  "author": "Seastian Schürmann sebs@2xs.org",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
