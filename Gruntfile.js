@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     },
     watch: {
       files: '<config:lint.files>',
-      tasks: 'lint qunit'
+      tasks: 'jshint buster'
     },
     jshint: {
       all: ['Gruntfile.js', 'tests/*.js'],
@@ -29,5 +29,4 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   // Default task.
   grunt.registerTask('default', ['jshint', 'buster']);
-
 };
