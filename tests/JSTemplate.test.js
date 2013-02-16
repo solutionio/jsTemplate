@@ -1,6 +1,7 @@
 buster.testCase("My thing", {
     "has the foo and bar": function () {
-        assert.equals(foo(), "bar");
+       var jst = new JSTemplate(); 
+       assert.equals(jst.foo(), "bar");
     },
 
     "states the obvious": function () {

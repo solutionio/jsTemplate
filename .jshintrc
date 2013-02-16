@@ -15,7 +15,7 @@
     "assert": true,
     "refute": true,
     "console": true,
-    "foo": true
+    "JSTemplate": true
   }
 }
 

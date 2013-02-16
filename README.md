@@ -6,6 +6,8 @@ This Template should get you up and running with testdriven Javascript in no tim
 
 ## Installation
 
+We use a variety of NPM Modules for Build and Development. These come by NPM packages.
+
 ```
 npm install
 grunt-buster@0.1.2 node_modules/grunt-buster
