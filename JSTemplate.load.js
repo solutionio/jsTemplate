@@ -1,0 +1,1 @@
+JSTemplate.prototype.load = function() {};
