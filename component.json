@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "./main.js",
   "dependencies": {
-    "jquery": "1.8.3",
     "async-load": "git@github.com:sebs/async-load.git#>=0.1.1"
   }
 }
