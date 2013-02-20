@@ -5,6 +5,7 @@ config['Browser'] = {
   sources: [
     'components/jquery/jquery.js', 
     'JSTemplate.js',
+    'JSTemplate.load.js'
   ],
   tests: [
     'tests/*.js',
