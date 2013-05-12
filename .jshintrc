@@ -17,7 +17,8 @@
     "assert": true,
     "refute": true,
     "console": true,
-    "Travis": true
+    "Travis": true,
+    "promiser": true
   }
 }
 

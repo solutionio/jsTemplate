@@ -1,7 +1,7 @@
 buster.testCase("My thing", {
-    "has the foo and bar": function () {
-       var tr = new Travis(); 
-       assert.equals(tr.foo(), "bar");
+    "returns a object for a fluid api": function () {
+       var tr = new Travis('sebs/rapidstack'); 
+       assert.equals(typeof tr.status(), "object");
     },
 
     "states the obvious": function () {

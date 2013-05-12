@@ -1,7 +1,9 @@
-console.log('foo');
 
-function Travis() {};
+function Travis(name) {
+  this.name = name;
+  this.promiser = promiser();
+}
 
-Travis.prototype.foo = function() {
-  return "bar";
+Travis.prototype.status = function() {
+  return this; 
 };

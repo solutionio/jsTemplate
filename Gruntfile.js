@@ -19,7 +19,7 @@ module.exports = function(grunt) {
       tasks: 'jshint buster'
     },
     jshint: {
-      all: ['Gruntfile.js', 'tests/*.js'],
+      all: ['travis.js', 'Gruntfile.js', 'tests/*.js'],
       options: {
         jshintrc: '.jshintrc'
       } 
